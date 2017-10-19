@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		640C52F81F96B75A00571FEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640C52F71F96B75A00571FEE /* AppDelegate.swift */; };
+		640C52FA1F96B75A00571FEE /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640C52F91F96B75A00571FEE /* FirstViewController.swift */; };
+		640C52FC1F96B75A00571FEE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640C52FB1F96B75A00571FEE /* SecondViewController.swift */; };
+		640C52FF1F96B75A00571FEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 640C52FD1F96B75A00571FEE /* Main.storyboard */; };
+		640C53011F96B75B00571FEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 640C53001F96B75A00571FEE /* Assets.xcassets */; };
+		640C53041F96B75B00571FEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 640C53021F96B75B00571FEE /* LaunchScreen.storyboard */; };
+		640C530C1F96D4B000571FEE /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640C530B1F96D4B000571FEE /* Message.swift */; };
+		640C530E1F96DA7500571FEE /* MapViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640C530D1F96DA7500571FEE /* MapViewExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		640C52F41F96B75A00571FEE /* geoMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = geoMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		640C52F71F96B75A00571FEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		640C52F91F96B75A00571FEE /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		640C52FB1F96B75A00571FEE /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		640C52FE1F96B75A00571FEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		640C53001F96B75A00571FEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		640C53031F96B75B00571FEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		640C53051F96B75B00571FEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		640C530B1F96D4B000571FEE /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		640C530D1F96DA7500571FEE /* MapViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		640C52F11F96B75A00571FEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		640C52EB1F96B75A00571FEE = {
+			isa = PBXGroup;
+			children = (
+				640C52F61F96B75A00571FEE /* geoMessenger */,
+				640C52F51F96B75A00571FEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		640C52F51F96B75A00571FEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				640C52F41F96B75A00571FEE /* geoMessenger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		640C52F61F96B75A00571FEE /* geoMessenger */ = {
+			isa = PBXGroup;
+			children = (
+				640C52F71F96B75A00571FEE /* AppDelegate.swift */,
+				640C52F91F96B75A00571FEE /* FirstViewController.swift */,
+				640C52FB1F96B75A00571FEE /* SecondViewController.swift */,
+				640C530B1F96D4B000571FEE /* Message.swift */,
+				640C530D1F96DA7500571FEE /* MapViewExtension.swift */,
+				640C52FD1F96B75A00571FEE /* Main.storyboard */,
+				640C53001F96B75A00571FEE /* Assets.xcassets */,
+				640C53021F96B75B00571FEE /* LaunchScreen.storyboard */,
+				640C53051F96B75B00571FEE /* Info.plist */,
+			);
+			path = geoMessenger;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		640C52F31F96B75A00571FEE /* geoMessenger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 640C53081F96B75B00571FEE /* Build configuration list for PBXNativeTarget "geoMessenger" */;
+			buildPhases = (
+				640C52F01F96B75A00571FEE /* Sources */,
+				640C52F11F96B75A00571FEE /* Frameworks */,
+				640C52F21F96B75A00571FEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = geoMessenger;
+			productName = geoMessenger;
+			productReference = 640C52F41F96B75A00571FEE /* geoMessenger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		640C52EC1F96B75A00571FEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Zbudisch;
+				TargetAttributes = {
+					640C52F31F96B75A00571FEE = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 640C52EF1F96B75A00571FEE /* Build configuration list for PBXProject "geoMessenger" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 640C52EB1F96B75A00571FEE;
+			productRefGroup = 640C52F51F96B75A00571FEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				640C52F31F96B75A00571FEE /* geoMessenger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		640C52F21F96B75A00571FEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				640C53041F96B75B00571FEE /* LaunchScreen.storyboard in Resources */,
+				640C53011F96B75B00571FEE /* Assets.xcassets in Resources */,
+				640C52FF1F96B75A00571FEE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		640C52F01F96B75A00571FEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				640C52FC1F96B75A00571FEE /* SecondViewController.swift in Sources */,
+				640C530C1F96D4B000571FEE /* Message.swift in Sources */,
+				640C52F81F96B75A00571FEE /* AppDelegate.swift in Sources */,
+				640C530E1F96DA7500571FEE /* MapViewExtension.swift in Sources */,
+				640C52FA1F96B75A00571FEE /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		640C52FD1F96B75A00571FEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				640C52FE1F96B75A00571FEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		640C53021F96B75B00571FEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				640C53031F96B75B00571FEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		640C53061F96B75B00571FEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		640C53071F96B75B00571FEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		640C53091F96B75B00571FEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67WE23Q8HK;
+				INFOPLIST_FILE = geoMessenger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zbudisch.geoMessenger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		640C530A1F96B75B00571FEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67WE23Q8HK;
+				INFOPLIST_FILE = geoMessenger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zbudisch.geoMessenger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		640C52EF1F96B75A00571FEE /* Build configuration list for PBXProject "geoMessenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				640C53061F96B75B00571FEE /* Debug */,
+				640C53071F96B75B00571FEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		640C53081F96B75B00571FEE /* Build configuration list for PBXNativeTarget "geoMessenger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				640C53091F96B75B00571FEE /* Debug */,
+				640C530A1F96B75B00571FEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 640C52EC1F96B75A00571FEE /* Project object */;
+}
